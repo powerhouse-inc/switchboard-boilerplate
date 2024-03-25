@@ -23,7 +23,7 @@
     "cors": "^2.8.5",
     "document-drive": "1.0.0-alpha.17",
     "document-model": "^1.0.31",
-    "document-model-libs": "^1.8.0",
+    "document-model-libs": "1.16.0-arbitrum.2",
     "dotenv": "^16.4.5",
     "ethers": "^5.7.2",
     "express": "^4.18.3",
