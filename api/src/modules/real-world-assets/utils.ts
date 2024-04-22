@@ -1,4 +1,4 @@
-import { Prisma, RWAPortfolio } from "@prisma/client";
+import { Prisma, RWAPortfolio } from "prisma/client/app";
 
 export function transformPortfolioToState(portfolios: Prisma.RWAPortfolioGetPayload<{
     include: {

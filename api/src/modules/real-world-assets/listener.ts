@@ -1,4 +1,4 @@
-import { Prisma, RWAPortfolio } from "@prisma/client";
+import { Prisma, RWAPortfolio } from "prisma/client/app";
 import { InternalTransmitterUpdate, OperationUpdate } from "document-drive";
 import { AddFileInput, DeleteNodeInput, DocumentDriveDocument, DocumentDriveState, ListenerFilter } from "document-model-libs/document-drive";
 import { AddFeesToGroupTransactionInput, Asset, Cash, CreateAccountInput, CreateCashAssetInput, CreateFixedIncomeAssetInput, CreateFixedIncomeTypeInput, CreateGroupTransactionInput, CreateServiceProviderFeeTypeInput, CreateSpvInput, DeleteAccountInput, DeleteCashAssetInput, DeleteFixedIncomeAssetInput, DeleteGroupTransactionInput, DeleteServiceProviderFeeTypeInput, DeleteSpvInput, EditAccountInput, EditCashAssetInput, EditFixedIncomeAssetInput, EditFixedIncomeTypeInput, EditGroupTransactionFeesInput, EditGroupTransactionInput, EditServiceProviderFeeTypeInput, EditSpvInput, FixedIncome, RealWorldAssetsDocument, RealWorldAssetsState, RemoveFeesFromGroupTransactionInput, utils } from "document-model-libs/real-world-assets"

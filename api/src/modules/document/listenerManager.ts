@@ -3,7 +3,7 @@ import fs from 'fs';
 import { DocumentDriveServer, IReceiver, InternalTransmitter, InternalTransmitterUpdate } from 'document-drive';
 import { Listener, DocumentDriveDocument } from 'document-model-libs/document-drive';
 import { Document, OperationScope } from "document-model/document"
-import { Prisma } from '@prisma/client';
+import { Prisma } from 'prisma/client/app';
 import { getChildLogger } from '../../logger';
 
 const logger = getChildLogger({ msgPrefix: 'Listener Manager' }, { module: 'Listener Manager' });

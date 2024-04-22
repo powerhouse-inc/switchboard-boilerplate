@@ -1,4 +1,4 @@
-import type { PrismaClient } from '@prisma/client';
+import type { PrismaClient } from 'prisma/client/app';
 import { SiweMessage } from 'siwe';
 import { GraphQLError } from 'graphql';
 import url from 'url';

@@ -1,6 +1,6 @@
 import ms from 'ms';
 import z from 'zod';
-import type { Prisma } from '@prisma/client';
+import type { Prisma } from 'prisma/client/app';
 import { randomUUID } from 'crypto';
 import { GraphQLError } from 'graphql';
 import wildcard from 'wildcard-match';

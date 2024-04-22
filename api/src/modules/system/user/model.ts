@@ -1,4 +1,4 @@
-import { Prisma } from '@prisma/client';
+import { Prisma } from 'prisma/client/app';
 import { GraphQLError } from 'graphql';
 import {
   AUTH_SIGNUP_ENABLED,

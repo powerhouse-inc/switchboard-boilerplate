@@ -1,4 +1,4 @@
-import type { Prisma } from '@prisma/client';
+import type { Prisma } from 'prisma/client/app';
 import { transformPortfolioToState } from './utils';
 
 export function getRWACRUD(prisma: Prisma.TransactionClient) {

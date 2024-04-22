@@ -1,4 +1,4 @@
-import type { Prisma } from '@prisma/client';
+import type { Prisma } from 'prisma/client/app';
 import { GraphQLError } from 'graphql';
 import ms from 'ms';
 import { verifyToken, validateOriginAgainstAllowed, generateTokenAndSession } from './helpers';

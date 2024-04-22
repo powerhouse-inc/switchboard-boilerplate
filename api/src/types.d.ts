@@ -1,5 +1,5 @@
 import type { Level as PinoLevel } from 'pino';
-import { Prisma } from '@prisma/client';
+import { Prisma } from 'prisma/client/app';
 
 export declare interface LoggerConfig {
   moduleFilter: string[];

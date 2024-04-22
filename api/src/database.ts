@@ -1,4 +1,4 @@
-import { PrismaClient, Prisma } from '@prisma/client';
+import { PrismaClient, Prisma } from 'prisma/client/app';
 import { Level as PinoLevel } from 'pino';
 import { getChildLogger } from './logger';
 import { getUserCrud, getSessionCrud, getChallengeCrud, getRWACRUD } from './modules';

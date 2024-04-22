@@ -1,6 +1,6 @@
 import type express from 'express';
 import pino from 'pino';
-import { Session } from '@prisma/client';
+import { Session } from 'prisma/client/app';
 import { getChildLogger } from '../../../logger';
 import { getExtendedPrisma } from '../../../importedModules';
 
